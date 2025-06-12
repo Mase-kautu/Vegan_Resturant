@@ -1,89 +1,80 @@
- {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+</style>
+</head>
+<body>
 
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f3fdf4;
-  color: #2f4f4f;
-  line-height: 1.6;
-}
+  <header>
+    <div class="container">
+      <h1>Business Name</h1>
+      <nav>
+        <ul>
+          <li><a href="Highlights who we are and what we offer">Home</a></li>
+          <li><a href="Shares our story, mission, and team">About Us</a></li>
+          <li><a href="Detailed breakdown of our tech services">Services</a></li>
+          <li><a href="Positive feedback to build trust">Testimonials</a></li>
+          <li><a href="56723890/63048093">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-header {
-  background-color: #2e8b57;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-}
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to Our Business</h2>
+      <p>Your success is our priority. Discover how we can help you today.</p>
+    </div>
+  </section>
 
-header h1 {
-  font-size: 2.5rem;
-}
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are a dedicated team of professionals offering top-notch services to help your business grow.</p>
+    </div>
+  </section>
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-}
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul class="service-list">
+        <li>Consulting</li>
+        <li>Web Development</li>
+        <li>Marketing Strategy</li>
+        <li>Customer Support</li>
+      </ul>
+    </div>
+  </section>
 
-nav ul li {
-  margin: 0 15px;
-}
+  <section id="testimonials">
+    <div class="container">
+      <h2>Client Testimonials</h2>
+      <blockquote>
+        "Working with this team has been a game-changer for our company. Highly recommended!"
+        <footer>- Happy Client</footer>
+      </blockquote>
+      <blockquote>
+        "Professional, responsive, and results-driven. Great experience!"
+        <footer>- Satisfied Customer</footer>
+      </blockquote>
+    </div>
+  </section>
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+  <section id="#contact us">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
 
-.hero {
-  background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1400&q=80');
-  background-size: cover;
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
-}
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Business Name. All rights reserved.</p>
+    </div>
+  </footer>
 
-.hero h2 {
-  font-size: 3rem;
-}
+</body>
+</html>
 
-.hero p {
-  font-size: 1.2rem;
-}
-
-.menu {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.menu h3 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.menu-items {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.item {
-  background: #eafae0;
-  padding: 20px;
-  border-radius: 10px;
-  width: 250px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-  background-color: #2e8b57;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  margin-top: 40px;
-}
