@@ -3,34 +3,116 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Green Leaf Vegan</title>
+  <title>Business Website for a modern vegan restaurant</title>
   <style>
-    body { font-family: Arial; background: #f4f9f4; margin: 0; padding: 0; }
-    header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
-    nav a { margin: 0 15px; color: white; text-decoration: none; }
-    .content { padding: 20px; }
-    footer { background: #333; color: white; text-align: center; padding: 10px; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Green Leaf Vegan</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Menu</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  <div class="content">
-    <h2>Welcome to Green Leaf Vegan</h2>
-    <p>Fresh. Organic. Delicious. 100% plant-based meals crafted with love.</p>
-    <img src="https://source.unsplash.com/800x400/?vegan,food" alt="Vegan food" width="100%">
-  </div>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
 
-  <footer>
-    <p>&copy; 2025 Green Leaf Vegan. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem 0;
+    }
+
+    header {
+      background: #003366;
+      color: white;
+      padding: 1rem 0;
+    }
+
+    header h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .hero {
+      background: #f4f4f4;
+      padding: 4rem 0;
+      text-align: center;
+    }
+
+    section {
+      padding: 3rem 0;
+    }
+
+    .service-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    blockquote {
+      font-style: italic;
+      margin: 1rem 0;
+      padding: 1rem;
+      background: #e0e0e0;
+      border-left: 5px solid #0077cc;
+    }
+
+    blockquote footer {
+      margin-top: 0.5rem;
+      font-weight: bold;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    input, textarea {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+    button {
+      padding: 0.75rem;
+      background: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #005fa3;
+    }
+
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+  
